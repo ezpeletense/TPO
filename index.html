@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codo a codo 4.0 TPO</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css"/>
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h1 class="logo">DearVincent</h1>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#featured" class="list-link">Featured</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#news" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#gallery" class="list-link">Gallery</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#categories" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#newsletter" class="list-link">Subscribe</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link ">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-brush-line brush-line-icon"></i>
+                    <i class="ri-brush-fill brush-fill-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+                
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="screen-sm-hidden btn sign-up-btn fancy-border">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Search form -->
+    <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input type="search" class="form-input" placeholder="Please enter your query">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+
+    </div>
+
+    <!-- Articulos destacados -->
+    <section class="featured-articles section section-header-offset" id="featured">
+
+        <div class="featured-articles-container container d-grid">
+            
+            <div class="featured-content d-grid">
+
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">Featured</span>
+                    </h3>
+                    <span class="headline-description">This month's featured paintings</span>
+                </div>
+
+                <a href="#" class="article featured-article featured-article-1">
+                    <img src="./images/featured/featured-1.jpg" alt="Boy in VR headset"
+                    class="article-image">
+                    <span class="article-category">Technology</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>21.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>9 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Is VR the future?</h3>
+                    </div>
+                </a>
+                
+                <a href="#" class="article featured-article featured-article-2">
+                    <img src="./images/featured/featured-2.jpg" alt="Fancy restorant"
+                    class="article-image">
+                    <span class="article-category">Leisure</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>19.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>6 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">New fancy restorant.</h3>
+                    </div>
+                </a>
+                
+                <a href="#" class="article featured-article featured-article-3">
+                    <img src="./images/featured/featured-3.jpg" alt="Food making"
+                    class="article-image">
+                    <span class="article-category">Gastronomy</span>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">What Food Studies Show...</h3>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar d-grid" id="news">
+
+                <h3 class="title featured-content-title">Trending News</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./images/trending/trending_1.jpg" alt="trendy hairstyle" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./images/trending/trending_2.jpg" alt="trendy hairstyle" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+                </a>
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./images/trending/trending_3.jpg" alt="trendy hairstyle" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./images/trending/trending_4.jpg" alt="trendy hairstyle" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+                </a>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./images/trending/trending_5.jpg" alt="trendy hairstyle" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>17.05.2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>12 min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Galeria de imágenes -->
+    <section class="section" id="gallery">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Gallery">Gallery</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Slides -->
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_1.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 min read</span>
+                            </div>
+
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+                    
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_2.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 min read</span>
+                            </div>
+
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_3.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 min read</span>
+                            </div>
+
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_4.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 min read</span>
+                            </div>
+
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_5.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>12 min read</span>
+                            </div>
+
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./images/gallery/gallery_6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>17.05.2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>3 min read</span>
+                            </div>
+                            <h3 class="title article-title">Quick Read Sample</h3>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Swiper - Navigation buttons -->
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+
+                <!-- Swiper - Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="see-more-container">
+                <a href="#">
+                    <span class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></span> 
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories section" id="categories">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Categories">Categories</h2>
+            
+            <div class="categories-container d-grid">
+
+                <a href="#" class="article">
+                    <span class="tag-name">#OilPaintings</span>
+                    <img src="./images/categories/oilPaintings_tag.jpg" alt="OilPaintings" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Portraits</span>
+                    <img src="./images/categories/portraits_tag.jpg" alt="Portraits" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Watercolors</span>
+                    <img src="./images/categories/watercolors_tag.jpeg" alt="Watercolors" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#StillLifes</span>
+                    <img src="./images/categories/stillLifes_tag.jpeg" alt="Still Lifes" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#SelfPortraits</span>
+                    <img src="./images/categories/selfPortraits_tag.jpg" alt="Self Portraits" class="article-image">
+                </a>
+
+                <a href="#" class="article">
+                    <span class="tag-name">#Landscapes</span>
+                    <img src="./images/categories/landscapes_tag.jpg" alt="Landscapes" class="article-image">
+                </a>
+            </div>
+
+            <div class="see-more-container">
+                <a href="#">
+                    <span class="btn see-more-btn place-items-center">See more <i class="ri-arrow-right-s-line"></i></span> 
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter section" id="newsletter">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+            <div class="form-container-inner">
+
+                <h6 class="title newsletter-title">Subscribe to DearVincent</h6>
+                <p class="newsletter-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ad quos rem dolore consectetur consequuntur eaque blanditiis.</p>
+                
+                <form action="" class="form">
+                    <input type="email" class="form-input" required placeholder="Enter your email address" id="mail">
+                    <button class="btn form-btn" type="submit" id="subscribe-btn">
+                        <i class="ri-mail-send-line"></i>
+                    </button>
+                </form>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="footer section" id="footer">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">DearVincent</h2>
+                </a>
+                <p class="company-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum minima molestias blanditiis quam delectus sequi?
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-box-line"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy;2022 DearVincent. All rights reserved.</span>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Categories</h6>
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Usefull links</h6>
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Swiper.js -->
+    <script src="./js/swiper-bundle.min.js"></script>
+    <!-- Custom script -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
