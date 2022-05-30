@@ -4,15 +4,15 @@
 /* Variables para colores y tamaños */
 :root{
     --light-color: #f0f8ff;
-    --light-color-alt: #afb6cd;
-    --primary-background-color: #131417;
-    --secondary-background-color: #252830;
+    --light-color-alt: #c9c4b6;
+    --primary-background-color: #2a4757;
+    --secondary-background-color: #325569;
     --hover-light-color: var(--light-color);
     --hover-dark-color: var(--primary-background-color);
     --gradient-color: linear-gradient(
-        115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+        115deg,#f1ef72,#fed83f,#a767e5,#12bcfe,#009e60);
     --transparent-light-color: rgba(255,255,255,.05);
-    --transparent-dark-color: rgba(0,0,0,.75);
+    --transparent-dark-color: rgba(0, 0, 0, 0.75);
     --font-family: 'Libre Baskerville', serif;
     --font-size-xsm: 1.2rem;
     --font-size-sm: 1.6rem;
@@ -76,12 +76,13 @@ i{
 /* Tema claro - light theme */
 body.light-theme{
     --light-color: #3d3d3d;
-    --light-color-alt: rgba(0, 0, 0, .6);
-    --primary-background-color: #f0f8ff;
-    --secondary-background-color: #f1f1f1;
-    --hover-light-color: #f0f8ff;
-    --transparent-dark-color: #f1f1f1;
-    --transparent-light-color: rgba(0,0,0,.1);
+    --light-color-alt: #000000af;
+    --primary-background-color: #e4d4de;
+    --secondary-background-color: #eee4ea;
+    --hover-light-color: var(--light-color);
+    --hover-dark-color: var(--primary-background-color);
+    --transparent-dark-color: #f1f1f1b8;
+    --transparent-light-color: #e4d4de;
 }
 
 /* Clases reutilizables */
